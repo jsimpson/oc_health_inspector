@@ -1,0 +1,20 @@
+<h1>Restaurant Closures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Violations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @facilities.each do |facility| %>
+      <tr>
+        <td><%= facility.facility_name %></td>
+        <td><%= "#{facility.address} #{facility.city}, #{facility.state} #{facility.zip_code}" %></td>
+        <td><%= facility.violations.count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
