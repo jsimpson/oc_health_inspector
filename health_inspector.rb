@@ -1,8 +1,6 @@
 require "erb"
 require "json"
 require "mechanize"
-require "pry"
-require "pry-byebug"
 require "sequel"
 
 RESULTS = "https://orangeeco.envisionconnect.com/api/pressAgentClient/searchFacilities?PressAgentOid=a14e5b5a-0788-490e-95b5-a70d0172bb3c"
