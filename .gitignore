@@ -1,3 +1,4 @@
 .ruby-gemset
 index.html
 violations.db
+Gemfile.lock
